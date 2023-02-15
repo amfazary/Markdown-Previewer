@@ -24,10 +24,9 @@ function App() {
           >
         </textarea>
       </div>
-      <div className="container-markdown">
+      <div className="container-markdown" id="preview">
         <ReactMarkdown 
           className="markdown" 
-          id="preview"
           children={ input }
         />
       </div>
