@@ -65,6 +65,41 @@ body {
     border-radius: 1rem;
 }
 
-.markdown *{
+
+.markdown h1, .markdown h2 {
+    margin: 1rem auto;
     border-bottom: 0.125rem solid gray;
+    text-align: center;
+}
+
+.markdown h3, .markdown h4, .markdown h5, .markdown h6{
+    margin: 0.5rem auto;
+}
+
+.markdown p{
+    margin: 0.25rem auto;
+}
+
+.markdown a{
+    color: #123667;
+}
+
+.markdown code{
+    background-color: #fff;
+}
+
+.markdown blockquote {
+    margin: 1rem;
+    border-left: 0.25rem solid #123667;
+    padding-left: 1rem;
+    
+}
+
+.markdown li, .markdown li::marker {
+    padding-left: 1rem;
+}
+
+.markdown img {
+    height: 25vh;
+    margin: 0 auto;
 }
